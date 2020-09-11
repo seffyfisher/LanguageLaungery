@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+<meta name="theme-color" content="#0fb143">
+	<title>מכבסת מילים // שין למד</title>
+	<script src="jquery-1.7.2.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="jquery.ui.touch-punch.min.js"></script>
+<link rel="shortcut icon" href="images/favico.ico" type="image/x-icon">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-7373605-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:444774,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+<!--
+----------------------------------------------------------------------------------------------------
+-------------------------------------shinlamed-----------------------------------------------------
+-------------------------------------ossssssss/-----------------------------------------------------
+--------------------------------:o++o:---:+///+++++-------------------------------------------------
+--------------------------------:ssss-...-////ossso-------------------------------------------------
+--------------------------------:ssss/:::/++++ossso-------------------------------------------------
+--------------------------------:ssssssssssssssssso-------------------------------------------------
+--------------------------------:oooooooooooooooooo-------------------------------------------------
+---------------------------------//////////////////-------------------------------------------------
+---------------------------------//////////////////-------------------------------------------------
+----------------------------שששש:::::::::-----::::שששש/--------------------------------------------
+----------------------------syyys-:::::::-....-::::yyyy/--------------------------------------------
+-----------------------:++++oooo+:::::::::----:::::oooo+++++----------------------------------------
+-----------------------+yyyy+//////////////////////////oyyyy----------------------------------------
+-------------------::::+yyyy+//////////////////////////oyyys::::------------------------------------
+-------------------syyysooooooooossssssssssssssssssoooooooooyyyy+-----------------------------------
+-------------------yyyysooooooooossssssssssssssssssoooooooooyyyyo-----------------------------------
+--------------/sssssssssoooosssssssssyyyyyyyyysssssssssooooosssssssssssss/--------------------------
+--------------/yyyyssssooooosssssssssyyyyyyyyyyssssssssooooossssyyyyyyyyy+--------------------------
+--------------/yyyysoooooooosyyyyyyyy+////////oyyyyyyyysoooooooosyyyyyyyys++++++++/-----------------
+--------------/yyyyooooossssyyyyyyyyy-........+yyyyyyyyyssssoooosyyyyyyyyyyyyyyyyys-----------------
+--------------/yyyyoooosssssyyyyyyyyy/::::::::oyyyyyyyyyssssoooosyyyyssssyyyyyyyyys-:::-------------
+--------------/yyyyssssyyyyysssssssssNMMMMMMMMhssssssssyyyyyssssyyyyy----+yyyyoooooyyyy:------------
+--------------/yyyyssssyyyyyssssssssomMMMMMMMMhssssssssyyyyyssssyyyyy----+yyyyoooooyyyy:------------
+--------------/yyyyoooosyyyy:--------:::::::::---------oyyyyoooosyyyy----+yyyysssssyyyy:------------
+--------------/yyyyoooosyyyy-..........................+yyyyoooosyyyy----+yyyysssssyyyy:------------
+--------------/yyyysssssyyyy-...-//////////////////....+yyyysssssssss----+yyyyoooosyyyy:------------
+--------------/yyyyssssyyyyy-...-ssssssssssssssssso....+yyyyyyyysoooo----+yyyyoooooyyyy:------------
+--------------/yyyysssssyyyy-...-++++oooooooooooooo----oyyyyyyyysoooo----+yyyyoooosyyyy:------------
+--------------/yyyyoooosyyyy-........+ooooooooooooooooosyyyyooooooooo----+yyyysssssyyyy:------------
+--------------/yyyyoooosyyyy-........+ooooooooooooooooosyyyyooooooooo----+yyyysssssyyyy:------------
+--------------/yyyyssssyyyyyo++++++++ooooosssssssssoooosyyyyyyyysoooo----+yyyyoooosyyyy:------------
+--------------/yyyyssssyyyyyoooooooooooooosssssssssoooosyyyyyyyysoooo----+yyyyoooooyyyy:------------
+--------------/yyyyoooosyyyyooooooooooooooooooooooo////oyyyyssssooooo----+yyyysssssyyyy:------------
+--------------/yyyyoooosyyyyooooossssssssoooooooooo----oyyyyooooooooo----+yyyysssssyyyy:------------
+--------------/yyyyoooosyyyyoooooooooooooo++++++++/----oyyyyssssooooo////oyyyysssssyyyy:------------
+--------------/yyyyssssyyyyyooooooooooooo+-------------oyyyyyyyysooooyyyyyyyyyoooooyyyy:------------
+--------------/yyyyssssyyyyyo+++++++++++++-------------oyyyyyyyysooooyyyyyyyyyoooooyyyy:------------
+--------------/yyyyoooosssss/:::::::::::::-------------+ssssoooosyyyysssssoooosssssyyyy:------------
+--------------/yyyyooooossss:--------------------------+ssssoooosyyyysssssoooosssssyyyy:------------
+--------------/yyyysssssyyyy/::::::::::::::::::::::::::oyyyyssssssssssssssssssyyyys////-------------
+--------------/yyyyssssyyyyy/::::::::::::::::::::::::::oyyyysssssoooosssssssssyyyys-----------------
+--------------/oooossssyyyyy++++/::::::::::::::::::++++syyyyssssooooosssssssssoooo+-----------------
+-------------------yyyyyssssyyyys::::::::::::::::::yyyyyssssooooossssoooosyyyy----------------------
+-------------------syyysssssyyyys::::::::::::::::::yyyysssssooooossssoooosyyys----------------------
+-----------------------+yyyyooooossssooooossssooooossssooooosssssooooyyyy+--------------------------
+-----------------------+yyyyooooossssooooossssooooossssooooosssssooooyyyy+--------------------------
+-----------------------:////ssssyyyyyysssyyyyyyssssyyyyyssssyyyyyssss////:--------------------------
+----------------------------syyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy-------------------------------
+----------------------------+oooooooooooooooooooooooooooooooooooooooo-------------------------------
+----------------------------------------------------------------------------------------------------
+
+!-->
+
+    <script>
+    
+$(function(){
+	$('.letter')
+		.draggable();
+});
+
+$(document).ready(function(){
+    $(".hand").click(function(){
+    $(".helper").css("display","block");
+    $(".helper").hide('fade', {}, 3000);
+    });
+});
+    
+    $(document).ready(function(){
+    $(".black").click(function(){
+    $(".woodblock").css("background-color","black");
+    });
+        
+        
+    $(".green").click(function(){
+    $(".woodblock").css("background-color","#15a443");
+    });
+
+        
+        
+    $(".white").click(function(){
+    $(".woodblock").css("background-color","white");
+    });
+
+        
+        
+    $(".yellow").click(function(){
+    $(".woodblock").css("background-color","transparent");
+    });
+
+        
+        
+});
+    
+    //giftplug//
+    
+    $(document).ready(function () {
+    var all,
+        randomed;
+    
+    all = generateAll();
+    randomed = generateRandomed(all);
+    
+    $("#generator").on("click", function (evt) {
+        evt.preventDefault();
+        randomed = doNext(all, randomed);
+    });
+});
+
+function generateAll() {
+    // Generates the array of "all" divs to work on
+    var a = [];
+    var divs = $(".hide > div.gift");
+    for (var i = 1; i <= divs.length; i++) {
+        a.push(i);
+    }
+//    console.log("List of divs available to toggle: " + a);
+    return a;
+}
+
+function generateRandomed(all) {
+    // Randomizes the original array
+    randomed = fisherYates(all);
+    //console.log("Setting randomized array: " + randomed);
+    return randomed;
+}
+
+function doNext(all, randomed) {
+    // this will make each one hide the other -- $(".gift, #last-div").hide();
+    
+    if (randomed.length < 1) {
+        //console.log("All giftes toggled, showing last, then starting over");
+        $("#last-div").show();
+        randomed = generateRandomed(all);
+    } else {
+        var next = randomed.shift();
+        var selector = "#gift" + next;
+        console.log("Showing " + selector);
+        $(selector).show();
+        console.log("What's left: " + randomed);
+    }
+    
+    return randomed;
+}
+
+// Randomizes an array and returns the new one (doesn't modify original)
+function fisherYates ( myArray ) {
+  var return_arr = myArray.slice(0);
+  var i = return_arr.length;
+  if ( i == 0 ) return false;
+  while ( --i ) {
+     var j = Math.floor( Math.random() * ( i + 1 ) );
+     var tempi = return_arr[i];
+     var tempj = return_arr[j];
+     return_arr[i] = tempj;
+     return_arr[j] = tempi;
+  }
+  return return_arr;
+}
+
+    // random color
+    
+    
+    
+    $(document).ready(function(){
+    $(".randomcolor").click(function(){
+        $(function() {
+            var randomColor = Math.floor(Math.random()*16777215).toString(16);
+    var randomcolor2 = "#"+randomColor;
+    console.log(randomcolor2);
+    $(".woodblock").css("background-color",randomcolor2);
+    });
+        });
+        
+        });
+
+    
+    
+    </script>
+</head>
+    <style>
+        .helper {
+	display: none;
+    position: absolute;
+    top: 364px;
+    font-size: 80%;
+    /* text-align: center; */
+    right: 30px;
+    padding: 4px;
+    font-family: arial,helvetica,sans-serif;
+}
+        body{
+            font-family:sans-serif;background-color: #f6ef1b;margin:5px 20px 10px 20px;            
+        }
+        
+        .letter-image,.letter,img all-letters{
+            width:90px;position: absolute;
+    
+
+}
+        .letters-description{text-align:center;color: #564d3b;}
+        a{color: #564d3b;border:0px;}
+        .all-letters {
+	float: left;
+    width:100%;
+    position: relative;
+    display: inline-block;    
+}
+        
+        
+        .hand {
+            position: absolute;
+    LEFT: 110px;
+    top: 387px;
+
+}
+        
+.woodblock {
+  width: 100%;
+  height: 250px;
+border:3px solid #0fb143;
+}
+        
+        .footer{
+    position: absolute;
+    top: 570px;
+    left:45%;
+        }
+    
+        .colors{
+            display: inline-block;
+            float:right;
+            position: absolute;
+            top: 394px;
+            right:40px;
+        }
+    
+        .black{
+            width:25px;
+            height:25px;
+            border-radius: 50%;
+            background-color: black;
+            margin-bottom: 5px;
+        }
+        
+            .green{
+            width:25px;
+            height:25px;
+            border-radius: 50%;
+            background-color: #0fb143;
+            margin-bottom: 5px;
+        }
+        
+            .white{
+            width:25px;
+            height:25px;
+            border-radius: 50%;
+            background-color: white;
+            margin-bottom: 5px;
+        }
+        
+            .yellow{
+            width:25px;
+            height:25px;
+            border-radius: 50%;
+            background-color: transparent;
+                border:1px solid black;
+            margin-bottom: 5px;
+        }
+        
+        
+        
+           .randomcolor{
+            width:25px;
+            height:25px;
+            border-radius: 50%;
+            background-color: transparent;
+             border:1px solid black;
+            margin-bottom: 5px;
+            text-align: center;
+            line-height: 25px;
+        }
+        
+        .gifticon{
+            display: block;
+            padding: 4px;
+            cursor: pointer;
+        }
+        
+        .gift,
+#last-div {
+    display: none;
+}
+.halas {
+
+}
+        
+    </style>
+    
+    
+    
+<body>
+      <div class="letters-description">
+      <a href="https://www.facebook.com/events/424790167862617/"><img src="images/bakabuk.png" width="80px"/></a>
+      </div>
+      
+<img src="images/scroll.png" class="hand" width="40px">
+ <div class="helper">כולנו נגררים על ידי החברה, גם האותיות</div>
+ 
+ 
+
+
+ 
+ <!--<div class="gifticon" id="generator"><img src="images/gifticon.png" width="30px"></a></div>!-->
+<div class="hide">
+ <div id="gift1" class="gift">
+    <div class="letter"><img class="letter-image" src="images/pil.png"/></div>
+ </div>
+ <div id="gift2" class="gift">
+<div class="letter"><img class="letter-image" src="images/otiot.png"/></div>
+ </div>
+ <div id="gift3" class="gift">
+<div class="letter"><img class="letter-image" src="images/bonder1.png"/></div>
+ </div>
+ <div id="gift4" class="gift">
+<div class="letter"><img class="letter-image" src="images/ran.png"/></div>
+ </div>
+ <div id="gift5" class="gift">
+<div class="letter"><img class="letter-image" src="images/dean.png"/></div>
+ </div>
+ <div id="gift6" class="gift">
+<div class="letter"><img class="letter-image" src="images/elna.png"/></div>
+ </div>
+ <div id="gift7" class="gift">
+<div class="letter"><img class="letter-image" src="images/scroll.png"/></div>
+ </div>
+</div>
+  <div id="last-div">
+    <div class="letter"><img class="letter-image" src="images/bakabuk.png"/></div>
+</div>
+   
+  <div class="woodblock">&nbsp;</div>
+  
+  
+  <div class="colors">
+  <div class="black">&nbsp;</div>
+  <div class="green">&nbsp;</div>
+  <div class="white">&nbsp;</div>
+  <div class="yellow">&nbsp;</div>
+  <div class="randomcolor">?</div>
+  </div>
+  <br/>
+
+   
+   
+    <div class="all-letters">
+    <div class="letter"><img class="letter-image" src="images/aleph.png"/></div>
+<div class="letter"><img class="letter-image" src="images/gimel.png"/></div>
+<div class="letter"><img class="letter-image" src="images/yod.png"/></div>
+<div class="letter"><img class="letter-image" src="images/lamed.png"/></div>
+<div class="letter"><img class="letter-image" src="images/kaf.png"/></div>
+<div class="letter"><img class="letter-image" src="images/hey.png"/></div>
+
+<div class="letter"><img class="letter-image" src="images/samech.png"/></div>
+<div class="letter"><img class="letter-image" src="images/aiin.png"/></div>
+<div class="letter"><img class="letter-image" src="images/pey.png"/></div>
+<div class="letter"><img class="letter-image" src="images/tzadik.png"/></div>
+<div class="letter"><img class="letter-image" src="images/zain.png"/></div>
+<div class="letter"><img class="letter-image" src="images/mem.png"/></div>
+<div class="letter"><img class="letter-image" src="images/dalet.png"/></div>
+<div class="letter"><img class="letter-image" src="images/hait.png"/></div>
+
+<div class="letter"><img class="letter-image" src="images/kuf.png"/></div>
+<div class="letter"><img class="letter-image" src="images/reish.png"/></div>
+<div class="letter"><img class="letter-image" src="images/shin.png"/></div>
+<div class="letter"><img class="letter-image" src="images/vav.png"/></div>
+<div class="letter"><img class="letter-image" src="images/taf.png"/></div>
+<div class="letter"><img class="letter-image" src="images/tet.png"/></div>
+<div class="letter"><img class="letter-image" src="images/nun.png"/></div>
+</div>
+       <div class="all-letters">
+    <div class="letter"><img class="letter-image" src="images/aleph.png"/></div>
+<div class="letter"><img class="letter-image" src="images/beth.png"/></div>
+<div class="letter"><img class="letter-image" src="images/gimel.png"/></div>
+<div class="letter"><img class="letter-image" src="images/yod.png"/></div>
+<div class="letter"><img class="letter-image" src="images/lamed.png"/></div>
+<div class="letter"><img class="letter-image" src="images/kaf.png"/></div>
+<div class="letter"><img class="letter-image" src="images/hey.png"/></div>
+
+<div class="letter"><img class="letter-image" src="images/samech.png"/></div>
+<div class="letter"><img class="letter-image" src="images/aiin.png"/></div>
+<div class="letter"><img class="letter-image" src="images/pey.png"/></div>
+<div class="letter"><img class="letter-image" src="images/tzadik.png"/></div>
+<div class="letter"><img class="letter-image" src="images/zain.png"/></div>
+<div class="letter"><img class="letter-image" src="images/mem.png"/></div>
+<div class="letter"><img class="letter-image" src="images/dalet.png"/></div>
+<div class="letter"><img class="letter-image" src="images/hait.png"/></div>
+
+<div class="letter"><img class="letter-image" src="images/kuf.png"/></div>
+<div class="letter"><img class="letter-image" src="images/reish.png"/></div>
+<div class="letter"><img class="letter-image" src="images/shin.png"/></div>
+<div class="letter"><img class="letter-image" src="images/vav.png"/></div>
+<div class="letter"><img class="letter-image" src="images/taf.png"/></div>
+<div class="letter"><img class="letter-image" src="images/tet.png"/></div>
+<div class="letter"><img class="letter-image" src="images/nun.png"/></div>
+</div>
+
+<div class="all-letters">
+
+<div class="letter"><img class="letter-image" src="images/gimel.png"/></div>
+<div class="letter"><img class="letter-image" src="images/yod.png"/></div>
+<div class="letter"><img class="letter-image" src="images/lamed.png"/></div>
+<div class="letter"><img class="letter-image" src="images/kaf.png"/></div>
+<div class="letter"><img class="letter-image" src="images/aiin.png"/></div>
+<div class="letter"><img class="letter-image" src="images/pey.png"/></div>
+<div class="letter"><img class="letter-image" src="images/tzadik.png"/></div>
+<div class="letter"><img class="letter-image" src="images/mem.png"/></div>
+<div class="letter"><img class="letter-image" src="images/dalet.png"/></div>
+<div class="letter"><img class="letter-image" src="images/hait.png"/></div>
+<div class="letter"><img class="letter-image" src="images/zain.png"/></div>
+<div class="letter"><img class="letter-image" src="images/vav.png"/></div>
+
+<div class="letter"><img class="letter-image" src="images/hey.png"/></div>
+<div class="letter"><img class="letter-image" src="images/dalet.png"/></div>
+<div class="letter"><img class="letter-image" src="images/vav.png"/></div>
+<div class="letter"><img class="letter-image" src="images/taf.png"/></div>
+
+</div>
+  
+   
+    <div class="letters-description footer">
+      <a href="http://shinlamed.com" target="_blank"><img src="http://media.cargocollective.com/1/9/310003/headerimg/shinlamedLogo3.png" width="40px"></a>
+      </div>
+</body>
+</html>
